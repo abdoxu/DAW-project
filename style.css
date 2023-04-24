@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    margin: 0 15px;
+    color: cornflowerblue;
+    transition: ease-in-out .2s;
+}
+header nav a:hover{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #F8A22F;
+}
+header nav .cont{
+    padding: 8px 20px;
+    background-color: #F8A22F;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
