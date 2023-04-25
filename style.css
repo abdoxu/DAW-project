@@ -1,6 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family:  'Cairo', sans-serif;
 }
 a{
     text-decoration: none;
@@ -10,6 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: none;
 }
 header nav a{
     margin: 0 15px;
@@ -25,15 +29,60 @@ header nav .cont{
     background-color: #F8A22F;
     border-radius: 50px;
 }
+.container{
+    display: flex;
+}
+.bdya_titel{
+    width:50%;
+    border:solid red;
+
+}
+ .bdya_titel h3{
+    padding-right: 200px;
+        font-size: 100px;
+        text-align:right;
+        font-family: 'Cairo', sans-serif;
+        
+ }
+ p{
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    padding-right: 20px;
+
+ }
+ .img{
+    width: 50%;
+    border: solid green;
+    
+ }
+ .btn{
+    display:inline-block;
+    margin-top: 1rem;
+    background:#F8A22F;
+    color :white;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border-radius: 5%;
+    margin: 5% 30%;
+    width: 150px;
+    text-align: center;
+
+ }
+ .bdya_titel a:hover {
+    background: rgb(94, 94, 94);
+    color: black;
+ }
 
 
 
-
-
-
-
-
-
+.dish h3{
+    font-size: 40px;
+    margin-left: 50%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #F8A22F;
+}
 
 
 
