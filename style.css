@@ -14,6 +14,7 @@ body{
     background-image: url(/res/tajin-with-black-fade.gif);
     background-repeat: no-repeat;
     background-position: right top;
+    background-size: 1500px;
 }
 /*
 #img_main{
@@ -39,11 +40,12 @@ header nav a{
     margin: 0 30px;
     color: rgb(255, 255, 255);
     transition: ease-in-out .2s;
-    font-size: x-large;
+    font-size: large;
 }
 header nav a:hover{
     padding-bottom: 10px;
     border-bottom: 2px solid #F8A22F;
+    
 }
 header nav .cont{
     padding: 8px 20px;
@@ -95,10 +97,11 @@ header nav .cont{
     margin-top: 1rem;
     background:#F8A22F;
     color :white;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     padding: 1rem 3rem;
     cursor: pointer;
-    border-radius: 5%;
+    border-radius: 12px;
+
     margin: 5% 30%;
     width: 150px;
     text-align: center;
@@ -110,12 +113,15 @@ header nav .cont{
  }
 
 
-
+.dish{
+    margin-top:150px ;
+    border: solid blue ;
+}
 .dish h3{
     font-size: 45px;
     margin-left: 50%;
     padding-bottom: 5px;
-    border-bottom: 2px solid #F8A22F;
+    border-bottom: 3px solid #F8A22F;
 
 }
 /* section taa ma3likch ends */
