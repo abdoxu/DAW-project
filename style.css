@@ -8,20 +8,39 @@
 a{
     text-decoration: none;
 }
+body{
+    background-image: url(/res/tajin-with-black-fade.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+/*
+#img_main{
+    margin-top: -150px;
+    float: right;
+}
+.main_container{
+border: solid red;
+}*/
+
+/*   header  start */
 header{
     margin: 40px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: none;
+    position: sticky;
+    
+
 }
 header nav a{
-    margin: 0 15px;
-    color: cornflowerblue;
+    margin: 0 30px;
+    color: rgb(255, 255, 255);
     transition: ease-in-out .2s;
+    font-size: x-large;
 }
 header nav a:hover{
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #F8A22F;
 }
 header nav .cont{
@@ -29,6 +48,8 @@ header nav .cont{
     background-color: #F8A22F;
     border-radius: 50px;
 }
+/*   header  ends */
+/*  section taa ma3likch  start */
 .container{
     display: flex;
 }
@@ -50,12 +71,23 @@ header nav .cont{
     text-align: right;
     padding-right: 20px;
 
- }
+ }   
+
+        /* img taa ma3likch*/
+        /*
  .img{
     width: 50%;
     border: solid green;
-    
+    height: 900px;
  }
+ .img img{
+    float: right;
+    margin-top: -150px;
+    border: solid blue;
+    height:1100px;
+    width: 1900px;
+    }
+*/
  .btn{
     display:inline-block;
     margin-top: 1rem;
@@ -84,6 +116,6 @@ header nav .cont{
     border-bottom: 2px solid #F8A22F;
 
 }
-
+/* section taa ma3likch ends */
 
 
