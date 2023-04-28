@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Cairo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    margin: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+header nav a{
+    margin: 0 15px;
+    color: rgb(0, 0, 0);
+    transition: ease-in-out .2s;
+}
+header nav a:hover{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #F8A22F;
+}
+header nav .cont{
+    padding: 8px 20px;
+    background-color: #F8A22F;
+    border-radius: 50px;
+}
