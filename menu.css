@@ -2,32 +2,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap');
 
+:root{
+    --white: #ffffff;
+    --orange: #F8A22F
+}
 *{
+    font-family:  'Cairo', sans-serif;
     margin: 0;
     padding: 0;
-    font-family:  'Cairo', sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize  ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    /*overflow-x: hidden;*/
 }
 a{
     text-decoration: none;
 }
+
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(res/orange-pizza.gif);
+
+
+
+}
 header{
-    margin: 40px 120px;
+    top: 0; left: 0 ;right: 0;
+    background: transparent;
+    padding : 1rem 6%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background: none;
+    justify-content: space-between;
+    z-index: 1000;
+    transition: ease-in-out .4s;
+    /*box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);
+    -webkit-box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);
+    -moz-box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);*/
+    position :fixed; 
+    border: solid red;
 }
 header nav a{
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    padding: 5px 25px;
+    color: rgb(255, 255, 255);
     margin: 0 15px;
-    color: rgb(0, 0, 0);
-    transition: ease-in-out .2s;
+    border-radius: 50px;
+    
 }
 header nav a:hover{
-    padding-bottom: 8px;
-    border-bottom: 2px solid #F8A22F;
+   color: rgb(0, 0, 0);
+   background: var(--white);
+   /* padding-bottom: 8px;
+    border-bottom: 2px solid #F8A22F;*/
 }
 header nav .cont{
-    padding: 8px 20px;
+    padding: 5px 25px;
     background-color: #F8A22F;
     border-radius: 50px;
 }
+header .icons i,
+header .icons a{
+
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    width: 2.7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--white);
+    border-radius: 50%;
+   /* background: #eee;*/
+   
+}
+header .icons i:hover,
+header .icons a:hover{
+
+    color: var(--orange);
+    background: var(--white);
+    transform: rotate(360deg);
+    transition-duration: .6s;
+}
+
+  header #menu-bars{
+
+    display: none;
+
+
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries for responsivity*/
+@media (max-width:1162px){
+
+    
+    *{
+       font-size: 50%;
+    }
+    header{
+
+        padding: 1rem 2 rem;
+
+    }
+
+    #FOOD.LOGO{
+     
+        ;
+        
+
+    }
+
+}
+
+  
+  
