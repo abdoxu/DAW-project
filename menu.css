@@ -30,7 +30,7 @@ body{
 }
 .header{
     top: 0; left: 0 ;right: 0;
-    background: transparent;
+    background-image: linear;
     padding : 1rem 6%;
     display: flex;
     align-items: center;
@@ -67,7 +67,7 @@ margin-left: 125px;
 }
 .header nav .cont{
     padding: 5px 25px;
-    background-color: #F8A22F;
+    /*/background-color: #F8A22F;*/
     border-radius: 50px;
 }
 .header .icons i,
