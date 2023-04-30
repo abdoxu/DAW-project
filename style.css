@@ -138,9 +138,17 @@ header nav .cont{
     list-style: none;
 }
 .dish h2{
+    display: block;
+ 
+    float: right;
+
+}
+.title_menu{
+    display: block;
     text-align: right;
 }
  .comment_dish{
+    display: block;
     font-size: 20px;
     color: #656565;
     text-align: right;
