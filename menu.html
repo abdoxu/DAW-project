@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <header>
+    <div class="header">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="246"
@@ -29,20 +29,37 @@
           font-weight="700"
         >
           <tspan x="0" y="0">FOOD.</tspan>
-          <tspan y="0" fill="#f8a22f">LOGO</tspan>
+          <tspan y="0" fill="#ffff">LOGO</tspan>
         </text>
       </svg>
-      <nav>
-        <a href="#">ABOUT US</a>
-        <a href="#">OUR FOOD</a>
-        <a href="#">PLANS</a>
-        <a href="#" class="cont">CONTACT US</a>
-      </nav>
+      <div class="nav">
+        <nav>
+          <a href="#">ABOUT US</a>
+          <a href="#">OUR FOOD</a>
+          <a href="#">PLANS</a>
+          <a href="#" class="cont">CONTACT US</a>
+        </nav>
+      </div>
+
       <div class="icons">
-        <i class="fas fa-bars" id="bars"></i>
+        <i class="fas fa-bars" id="menu-bars"></i>
         <i class="fas fa-search" id="search"></i>
         <a href="#" class="fas fa-shopping-cart"> </a>
       </div>
-    </header>
+    </div>
+
+    <div class="menu">
+      <h3>OUR MENU</h3>
+      <div class="menu-bar">
+        <a href="#"
+          ><button>all <img src="res/" alt="" /></button
+        ></a>
+        <a href="#"><button>breakfast</button></a>
+        <a href="#"><button>lunch</button></a>
+        <a href="#"><button>drinks</button></a>
+        <a href="#"><button>deserts</button></a>
+        <a href="#"><button>fastfood</button></a>
+      </div>
+    </div>
   </body>
 </html>
