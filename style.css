@@ -1,11 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap');
-<<<<<<< HEAD
-=======
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap');
 
 
->>>>>>> 970ae92c724eb65dd5d3a752b9f851a8c2f32827
 *{
     margin: 0;
     padding: 0;
@@ -16,33 +13,57 @@
 a{
     text-decoration: none;
 }
+body{
+    background-image: url(/res/tajin-with-black-fade.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 1500px;
+}
+/*
+#img_main{
+    margin-top: -150px;
+    float: right;
+}
+.main_container{
+border: solid red;
+}*/
+
+/*   header  start */
 header{
     margin: 40px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: none;
+    position: sticky;
+    
+
 }
 header nav a{
-    margin: 0 15px;
-    color: cornflowerblue;
+    margin: 0 30px;
+    color: rgb(255, 255, 255);
     transition: ease-in-out .2s;
+    font-size: large;
 }
 header nav a:hover{
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     border-bottom: 2px solid #F8A22F;
+
+    
 }
 header nav .cont{
     padding: 8px 20px;
     background-color: #F8A22F;
     border-radius: 50px;
 }
+/*   header  ends */
+/*  section taa ma3likch  start */
 .container{
-    display: flex;
+   display: flex;
 }
 .bdya_titel{
     width:50%;
-    border:solid red;
+    border:solid rgb(204, 255, 0);
 
 }
  .bdya_titel h3{
@@ -58,21 +79,33 @@ header nav .cont{
     text-align: right;
     padding-right: 20px;
 
- }
+ }   
+
+        /* img taa ma3likch*/
+        /*
  .img{
     width: 50%;
     border: solid green;
-    
+    height: 900px;
  }
+ .img img{
+    float: right;
+    margin-top: -150px;
+    border: solid blue;
+    height:1100px;
+    width: 1900px;
+    }
+*/
  .btn{
     display:inline-block;
     margin-top: 1rem;
     background:#F8A22F;
     color :white;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     padding: 1rem 3rem;
     cursor: pointer;
-    border-radius: 5%;
+    border-radius: 12px;
+
     margin: 5% 30%;
     width: 150px;
     text-align: center;
@@ -83,10 +116,6 @@ header nav .cont{
     color: black;
  }
 
-<<<<<<< HEAD
-
-
-=======
 /* اطباقنا*/ 
 .dish{
     margin-top:200px ;
@@ -96,15 +125,11 @@ header nav .cont{
    margin-right: 20px;
  
 }
->>>>>>> 970ae92c724eb65dd5d3a752b9f851a8c2f32827
 .dish h3{
 
     font-size: 45px;
  
     padding-bottom: 5px;
-<<<<<<< HEAD
-    border-bottom: 2px solid #F8A22F;
-=======
     border-bottom: 3px solid #F8A22F;
     text-align: center;
 
@@ -113,176 +138,22 @@ header nav .cont{
     list-style: none;
 }
 .dish h2{
+    display: block;
+ 
+    float: right;
+
+}
+.title_menu{
+    display: block;
     text-align: right;
 }
  .comment_dish{
+    display: block;
     font-size: 20px;
     color: #656565;
     text-align: right;
->>>>>>> 970ae92c724eb65dd5d3a752b9f851a8c2f32827
 
 }
+/* section taa ma3likch ends */
 
-
-
-
-
-
-
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-html,
-body {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    place-items: center;
-    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-}
-
-.wrapper .button {
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    float: left;
-    margin: 0 5px;
-    overflow: hidden;
-    background: #fff;
-    border-radius: 50px;
-    cursor: pointer;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-out;
-}
-
-.wrapper .button:hover {
-    width: 200px;
-}
-
-.wrapper .button .icon {
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    border-radius: 50px;
-    box-sizing: border-box;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-}
-
-.wrapper .button:nth-child(1):hover .icon {
-    background: #4267B2;
-}
-
-.wrapper .button:nth-child(2):hover .icon {
-    background: #1DA1F2;
-}
-
-.wrapper .button:nth-child(3):hover .icon {
-    background: #E1306C;
-}
-
-
-
-.wrapper .button:nth-child(5):hover .icon {
-    background: #ff0000;
-}
-
-.wrapper .button .icon i {
-    font-size: 25px;
-    line-height: 60px;
-    transition: all 0.3s ease-out;
-}
-
-.wrapper .button:hover .icon i {
-    color: #fff;
-}
-
-.wrapper .button span {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    margin-left: 10px;
-    transition: all 0.3s ease-out;
-}
-
-.wrapper .button:nth-child(1) span {
-    color: #4267B2;
-}
-
-.wrapper .button:nth-child(2) span {
-    color: #1DA1F2;
-}
-
-.wrapper .button:nth-child(3) span {
-    color: #E1306C;
-}
-
-
-
-.wrapper .button:nth-child(5) span {
-    color: #ff0000;
-}
-
-
-footer{
-    width: 100%;
-    height: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  padding-top: 50px;
-  background-image:url()  ;
- /* background-repeat: no-repeat;*/
-  background-size: cover;
-  background-position: center;
-}
-footer div{
-    width: 400px;
-    height: auto;
-}
-
-.Contact{
-    width: 100%;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.Contact p{
-    font-size: 16px;
-}
-.Menu{
-    width: 100%;
-    height: 150px;
-    display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-}
-
-.follow h2{
-    /* text-align: center; */
-    padding: 10px;
-}
-
-
-
-
-}
 

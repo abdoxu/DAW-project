@@ -137,6 +137,47 @@ margin-left: 125px;
     
    
   }
+  .img-button{
+
+    border: none;
+    padding: 10px 25px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+
+
+  }
+  .img-button img{
+    
+    width: 20px;
+    margin-right: 10px;
+
+
+  }
+
+ 
+  .menu .menu-bar button:hover{
+
+    background-color:  rgb(244, 226, 226)
+   ;
+
+
+  }
+  .menu h3{
+
+    color: var(--white);
+    font-size: 50px;
+
+  }
+
+  /*#img-min{
+    padding: 0;
+    width: 30%;
+    height: auto;
+    align-items: center;
+      
+    border: red solid;
+  }*/
   
 
 
