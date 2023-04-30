@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap');
+
+:root{
+    --white: #ffffff;
+    --orange: #F8A22F
+}
+*{
+    font-family:  'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize  ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    /*overflow-x: hidden;*/
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(res/orange-pizza.gif);
+   
+
+
+}
+.header{
+    top: 0; left: 0 ;right: 0;
+    background: transparent;
+    padding : 1rem 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    transition: ease-in-out .4s;
+    /*box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);
+    -webkit-box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);
+    -moz-box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);*/
+    
+    border: solid red;
+}
+.header .nav{
+
+margin-left: 125px;
+
+
+}
+.header nav a{
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: 5px 25px;
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    border-radius: 50px;
+    
+    
+}
+.header nav a:hover{
+   color: rgb(0, 0, 0);
+   background: var(--white);
+   /* padding-bottom: 8px;
+    border-bottom: 2px solid #F8A22F;*/
+}
+.header nav .cont{
+    padding: 5px 25px;
+    background-color: #F8A22F;
+    border-radius: 50px;
+}
+.header .icons i,
+.header .icons a{
+
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    width: 2.7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--white);
+    border-radius: 50%;
+   /* background: #eee;*/
+   
+}
+.header .icons i:hover,
+.header .icons a:hover{
+
+    color: var(--orange);
+    background: var(--white);
+    transform: rotate(360deg);
+    transition-duration: .6s;
+}
+
+  .header #menu-bars{
+
+    display: none;
+
+
+  }
+
+
+  .menu{
+    border: green solid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    ;
+  }
+  .menu .menu-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    margin-top: 40px;
+  
+  
+  }
+  
+  .menu .menu-bar button{
+    font-size: 1rem;
+    /*/font-family: ;/*/
+    border-radius: .5rem;
+    padding: 5px 40px ;
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    border-radius: 8px;
+    background: var(--white);
+    border: none;
+
+
+  }
+  .menu .menu-bar button:hover{
+
+    
+   
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries for responsivity*/
+@media (max-width:1163px){
+
+    
+    *{
+       font-size: 70%;
+    }
+    header{
+
+        padding: 1rem 2 rem;
+
+    }
+
+    #FOOD.LOGO{
+     
+        
+        
+
+    }
+
+}
+
+  
+  

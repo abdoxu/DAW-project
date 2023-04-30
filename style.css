@@ -208,7 +208,9 @@ footer{
   align-items: flex-start;
   padding-top: 50px;
   background-image:url(res/pexels-life-of-pix-67468.jpg)  ;
-  background-repeat: no-repeat;
+ /* background-repeat: no-repeat;*/
+  background-size: cover;
+  background-position: center;
 }
 footer div{
     width: 400px;
@@ -239,5 +241,10 @@ footer div{
 .follow h2{
     /* text-align: center; */
     padding: 10px;
+}
+
+
+
+
 }
 
