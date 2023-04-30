@@ -55,11 +55,11 @@ header nav .cont{
 /*   header  ends */
 /*  section taa ma3likch  start */
 .container{
-    display: flex;
+   display: flex;
 }
 .bdya_titel{
     width:50%;
-    border:solid red;
+    border:solid rgb(204, 255, 0);
 
 }
  .bdya_titel h3{

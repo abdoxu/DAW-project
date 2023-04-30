@@ -24,11 +24,11 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url(res/orange-pizza.gif);
-
+   
 
 
 }
-header{
+.header{
     top: 0; left: 0 ;right: 0;
     background: transparent;
     padding : 1rem 6%;
@@ -40,31 +40,38 @@ header{
     /*box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);
     -webkit-box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);
     -moz-box-shadow: -3px 7px 35px -6px rgba(0,0,0,0.48);*/
-    position :fixed; 
+    
     border: solid red;
 }
-header nav a{
-    font-size: 1.2rem;
+.header .nav{
+
+margin-left: 125px;
+
+
+}
+.header nav a{
+    font-size: 1rem;
     border-radius: .5rem;
     padding: 5px 25px;
     color: rgb(255, 255, 255);
     margin: 0 15px;
     border-radius: 50px;
     
+    
 }
-header nav a:hover{
+.header nav a:hover{
    color: rgb(0, 0, 0);
    background: var(--white);
    /* padding-bottom: 8px;
     border-bottom: 2px solid #F8A22F;*/
 }
-header nav .cont{
+.header nav .cont{
     padding: 5px 25px;
     background-color: #F8A22F;
     border-radius: 50px;
 }
-header .icons i,
-header .icons a{
+.header .icons i,
+.header .icons a{
 
     cursor: pointer;
     margin-left: .5rem;
@@ -78,8 +85,8 @@ header .icons a{
    /* background: #eee;*/
    
 }
-header .icons i:hover,
-header .icons a:hover{
+.header .icons i:hover,
+.header .icons a:hover{
 
     color: var(--orange);
     background: var(--white);
@@ -87,14 +94,49 @@ header .icons a:hover{
     transition-duration: .6s;
 }
 
-  header #menu-bars{
+  .header #menu-bars{
 
     display: none;
 
 
   }
+
+
+  .menu{
+    border: green solid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    ;
+  }
+  .menu .menu-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    margin-top: 40px;
   
   
+  }
+  
+  .menu .menu-bar button{
+    font-size: 1rem;
+    /*/font-family: ;/*/
+    border-radius: .5rem;
+    padding: 5px 40px ;
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    border-radius: 8px;
+    background: var(--white);
+    border: none;
+
+
+  }
+  .menu .menu-bar button:hover{
+
+    
+   
+  }
   
 
 
@@ -133,11 +175,11 @@ header .icons a:hover{
 
 
 /*media queries for responsivity*/
-@media (max-width:1162px){
+@media (max-width:1163px){
 
     
     *{
-       font-size: 50%;
+       font-size: 70%;
     }
     header{
 
@@ -147,7 +189,7 @@ header .icons a:hover{
 
     #FOOD.LOGO{
      
-        ;
+        
         
 
     }
