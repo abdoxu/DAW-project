@@ -157,3 +157,14 @@ header nav .cont{
 /* section taa ma3likch ends */
 
 
+
+ .couscous{
+width :120%;
+;
+clip: rect(-200px,200px);
+border: red solid;
+
+
+}
+
+
