@@ -159,10 +159,10 @@ header nav .cont{
 
 
  .couscous{
-width :120%;
-;
+width :150%;
+margin-top: 150px;
 clip: rect(-200px,200px);
-border: red solid;
+
 
 
 }
