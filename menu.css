@@ -179,7 +179,43 @@ margin-left: 125px;
     border: red solid;
   }*/
   
+  .meals{
+  
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 40px;
+    display: flex;
+  }
 
+
+  .meals .meal-box{
+
+  width: 25%;
+  border: red solid;  
+  border-radius: 1.3rem;
+  overflow: hidden;
+  
+  }
+
+  
+
+
+  .meal-box button{
+
+    border-radius: 1rem;
+    width: 80px;
+    height: 30px;
+    margin: 20px 10px;
+    border: none;
+  }
+   
+  .meals .meal-box .image {
+
+    
+    
+    
+
+  }
 
 
 

@@ -9,6 +9,7 @@
     font-family:  'Cairo', sans-serif;
     
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -60,6 +61,7 @@ header nav .cont{
 /*  section taa ma3likch  start */
 .container{
    display: flex;
+   margin-bottom: 20px;
 }
 .bdya_titel{
     width:50%;
@@ -167,4 +169,121 @@ clip: rect(-200px,200px);
 
 }
 
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-color: #F8A22F;
+    color: #fff;
+    font-size: 16px;
+    
+    
+    
+}
+
+.footer {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.footer_info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+
+.column {
+    width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 10px 0;
+}
+
+.contacticons {
+    width: 140px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 7px;
+    margin-top: 5px;
+}
+
+.contacticons i {
+    transition-duration: 0.4s;
+}
+
+.contacticons i:hover.icon1 {
+    color: rgb(135, 210, 212);
+}
+
+.contacticons i:hover.icon2 {
+    color: rgb(59, 89, 152);
+}
+
+.contacticons i:hover.icon3 {
+    color: rgb(196, 48, 43);
+}
+
+.contacticons i:hover.icon4 {
+    color: rgb(0, 172, 238);
+}
+
+.pad {
+    margin-bottom: 10px;
+}
+
+.contacticons i {
+
+    font-size: 24px;
+}
+
+.column h1 {
+    color: #ffffff;
+    font-family: exo;
+    font-size: 25px;
+}
+
+.column a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.column1 a:hover {
+    letter-spacing: 1px;
+}
+
+.footer{
+    transform: translateX(50px);
+} 
+
+.copyright {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright hr {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.copyright pre {
+    box-sizing: content-box;
+    
+
+}
 
