@@ -258,7 +258,8 @@ margin-right:130px ;
 
   .meal-box .meal-name h3{
 
-    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
     color: var(--orange);
   }
 
@@ -299,9 +300,35 @@ border-bottom-right-radius: 1.2rem;
   
 }
 
- .meal-box .h3{
 
-/*font-size: 50px;*/
+.lftor{
+ 
+  
+
+}
+
+.mchroubat{
+
+
+
+}
+
+.desserts{
+
+
+
+}
+
+
+.fast-food{
+
+
+
+
+}
+
+.meals-trad{
+
 
 
 }
