@@ -69,9 +69,9 @@ header nav .cont {
 .icons a {
   cursor: pointer;
   margin-left: 0.5rem;
-  height: 2.7rem;
-  line-height: 2.7rem;
-  width: 2.7rem;
+  height: 3rem;
+  line-height: 3rem;
+  width: 3rem;
   text-align: center;
   font-size: 1.2rem;
   color: var(--white);
