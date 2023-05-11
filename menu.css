@@ -120,8 +120,8 @@ margin-right:130px ;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 50px
-    ;
+    margin-top: 50px;
+    
   }
   .menu .menu-bar{
     display: flex;
@@ -129,19 +129,39 @@ margin-right:130px ;
     align-items: center ;
     margin-top: 40px;
     padding: 30px;
-    gap: 25px;
+    gap: 2px;
   
   
   }
+
+  #all{
+    background-color: #BEBEBE;
+    
+   
+  }
+
+  .menu-bar .left-arrow{
+
+    width: 25px;
+  }
+
+  .menu-bar .right-arrow{
+
+   
+
+
+  }
+
+ 
   
   .menu .menu-bar button{
-    font-size: 1.2rem;
+    font-size: 15px;
     /*/font-family: ;/*/
-    border-radius: .5rem;
+   
     padding: 5px 35px ;
     color: rgb(0, 0, 0);
     margin: 0 15px;
-    border-radius: 8px;
+    border-radius: 20px;
     background: var(--white);
     border: none;
     align-items: center;
@@ -190,20 +210,25 @@ margin-right:130px ;
       
     border: red solid;
   }*/
+   
   
+
   .meals{
   
     width: 100%;
     justify-content: space-evenly;
     padding: 40px;
+    margin-top: 80px;
     display: flex;
   }
+
+  
 
 
   .meals .meal-box{
 
-  width: 27%; 
-  height: 25%; 
+  width: 400px; 
+  height: 350px; 
   border-radius: 1.3rem;
   overflow: hidden;
   background-color: #ffffff;
