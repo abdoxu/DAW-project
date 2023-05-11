@@ -143,11 +143,9 @@ header nav .cont {
 /* section N02*/
 
 .container-sec2 {
-  border: red solid;
   width: 100%;
   margin-top: 150px;
 }
-
 
 .dish {
   margin-top: 50px;
@@ -165,17 +163,16 @@ header nav .cont {
 }
 
 .parag-2 {
-  
-display: flex;
- margin-right: 20px;
+  display: flex;
+  margin-right: 20px;
   font-size: 30px;
   text-align: right;
   font-family: "Cairo", sans-serif;
   margin-left: 340px;
   margin-top: 20px;
 }
-.parag-2 .z{
- padding-left: 14px;
+.parag-2 .z {
+  padding-left: 14px;
 }
 .comment_dish {
   font-size: 20px;
@@ -185,28 +182,26 @@ display: flex;
 }
 
 .couscous {
-  width: 110%;
+  width: 125%;
   margin-top: 150px;
   clip: rect(-200px, 200px);
 }
 
 /* section N02 ends */
 
-
-
 /* section N03  */
 
 .popular {
   padding: 25px 0 250px 0;
-
-  height: 100vh;
+  height: 800px;
   width: auto;
 }
 
 .popular h1 {
-  padding: 25px 0 25px 0;
+  padding: 20px 0 20px 0;
   font-size: 2rem;
-  font-family: Verdana;
+  font-family: exo;
+  text-transform: capitalize;
   color: white;
   text-align: center;
 }
@@ -216,17 +211,87 @@ display: flex;
   display: flex;
   justify-content: center;
   align-items: end;
-  gap: 200px;
+  gap: 150px;
 }
 
 .popular div img {
-  width: 22%;
+  width: 360px;
 }
 
 .container-sec3 {
   background-image: url("res/orange-pizza.gif");
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+/* start section N04 */
+
+#contact {
+  margin-bottom: 50px;
+  font-size: 2rem;
+  font-family: exo;
+  text-transform: capitalize;
+  color: var(--orange);
+  text-align: center;
+}
+
+#hhh {
+  font-family: exo;
+  font-size: 34px;
+  color: white;
+}
+
+.form {
+  border-radius: 25px;
+}
+
+.contact_col .img-feed {
+  width: 70%;
+  height: auto;
+}
+
+.contact_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.contact_col form {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  width: 70%;
+  padding: 20px 40px 20px 20px;
+}
+
+.contact_col form h3 {
+  text-align: center;
+  font-family: cursive;
+}
+
+.contact_col form input {
+  width: 100%;
+  height: 17pt;
+  padding: 5px;
+  margin: 5px;
+}
+
+.contact_col form textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.contact_col form {
+  background-image: url(res/orange-pizza.gif);
+  background-size: 400%;
+  background-repeat: no-repeat;
+}
+.contact_col .btn-form {
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
 }
 
 /* footer */
