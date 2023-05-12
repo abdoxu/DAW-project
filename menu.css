@@ -1,208 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap');
-
-:root{
-    --white: #ffffff;
-    --orange: #F8A22F;
-    --green : #77ff70;
+:root {
+  --white: #ffffff;
+  --orange: #f8a22f;
+  --green: #77ff70;
 }
-*{
-    
-    font-family:  'Cairo', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-transform: capitalize  ;
-    scroll-behavior: smooth;
-    scroll-padding-top: 5.5rem;
-    /*overflow-x: hidden;*/
+* {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  /*overflow-x: hidden;*/
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body{
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-image: url(res/orange-pizza.gif);
-   
-
-
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(res/orange-pizza.gif);
 }
-.header{
- 
+.header {
   margin: 40px 120px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background: none;
-  
 }
 
-.header .logo{
-
+.header .logo {
   width: auto;
 }
-.header .logo img{
-
+.header .logo img {
   align-items: center;
   width: 75%;
   margin-right: 0px;
 }
 
-
-.header .nav{
-
-margin-right:130px ;
-
-
+.header .nav {
+  margin-right: 130px;
 }
 
 /* nav bar*/
 
-.header nav a{
-    font-size: large;
-    border-radius: .5rem;
-    padding: 5px 25px;
-    color: rgb(255, 255, 255);
-    margin: 0 15px;
-    border-radius: 50px;
-    
-    
+.header nav a {
+  font-size: large;
+  border-radius: 0.5rem;
+  padding: 5px 25px;
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+  border-radius: 50px;
 }
 
-.header nav a:hover{
-   color: rgb(0, 0, 0);
-   background: var(--white);
-
+.header nav a:hover {
+  color: rgb(0, 0, 0);
+  background: var(--white);
 }
-.header nav .cont{
-    padding: 5px 25px;
-    /*/background-color: #F8A22F;*/
-    border-radius: 50px;
+.header nav .cont {
+  padding: 5px 25px;
+  /*/background-color: #F8A22F;*/
+  border-radius: 50px;
 }
 .header .icons i,
-.header .icons a{
-
-    cursor: pointer;
-    margin-left: .5rem;
-    height: 3rem;
-    line-height: 3rem;
-    width: 3rem;
-    text-align: center;
-    font-size: 1.2rem;
-    color: var(--white);
-    border-radius: 50%;
-   /* background: #eee;*/
-   
+.header .icons a {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  height: 3rem;
+  line-height: 3rem;
+  width: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--white);
+  border-radius: 50%;
+  /* background: #eee;*/
 }
 .header .icons i:hover,
-.header .icons a:hover{
-
-    color: var(--orange);
-    background: var(--white);
-    transform: rotate(360deg);
-    transition-duration: .6s;
+.header .icons a:hover {
+  color: var(--orange);
+  background: var(--white);
+  transform: rotate(360deg);
+  transition-duration: 0.6s;
 }
 
-  .header #menu-bars{
+.header #menu-bars {
+  display: none;
+}
 
-    display: none;
+.menu {
+  /*border: green solid;*/
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.menu .menu-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+  padding: 30px;
+  gap: 2px;
+}
 
+#all {
+  background-color: #bebebe;
+}
 
-  }
+.menu-bar .left-arrow {
+  width: 25px;
+}
 
+.menu-bar .right-arrow {
+}
 
-  .menu{
-    /*border: green solid;*/
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
-    
-  }
-  .menu .menu-bar{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center ;
-    margin-top: 40px;
-    padding: 30px;
-    gap: 2px;
-  
-  
-  }
+.menu .menu-bar button {
+  font-size: 15px;
+  /*/font-family: ;/*/
 
-  #all{
-    background-color: #BEBEBE;
-    
-   
-  }
+  padding: 5px 35px;
+  color: rgb(0, 0, 0);
+  margin: 0 15px;
+  border-radius: 20px;
+  background: var(--white);
+  border: none;
+  align-items: center;
+}
 
-  .menu-bar .left-arrow{
+.img-button {
+  border: none;
+  padding: 10px 25px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.img-button img {
+  width: 20px;
+  margin-right: 10px;
+}
 
-    width: 25px;
-  }
+.menu .menu-bar button:hover {
+  background-color: rgb(244, 226, 226);
+}
+.menu h3 {
+  color: var(--white);
+  font-size: 50px;
+}
 
-  .menu-bar .right-arrow{
-
-   
-
-
-  }
-
- 
-  
-  .menu .menu-bar button{
-    font-size: 15px;
-    /*/font-family: ;/*/
-   
-    padding: 5px 35px ;
-    color: rgb(0, 0, 0);
-    margin: 0 15px;
-    border-radius: 20px;
-    background: var(--white);
-    border: none;
-    align-items: center;
-
-
-  }
-  
-  .img-button{
-
-    border: none;
-    padding: 10px 25px;
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-
-
-  }
-  .img-button img{
-    
-    width: 20px;
-    margin-right: 10px;
-
-
-  }
-
- 
-  .menu .menu-bar button:hover{
-
-    background-color:  rgb(244, 226, 226)
-   ;
-
-
-  }
-  .menu h3{
-
-    color: var(--white);
-    font-size: 50px;
-
-  }
-
-  /*#img-min{
+/*#img-min{
     padding: 0;
     width: 30%;
     height: auto;
@@ -210,138 +160,85 @@ margin-right:130px ;
       
     border: red solid;
   }*/
-   
-  
 
-  .meals{
-  
-    width: 100%;
-    justify-content: space-evenly;
-    padding: 40px;
-    margin-top: 80px;
-    display: flex;
-  }
+.meals {
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 40px;
+  margin-top: 80px;
+  display: flex;
+}
 
-  
-
-
-  .meals .meal-box{
-
-  width: 400px; 
-  height: 350px; 
+.meals .meal-box {
+  width: 400px;
+  height: 350px;
   border-radius: 1.3rem;
   overflow: hidden;
   background-color: #ffffff;
+}
 
-  
-  
-  
-  }
+.meal-box button {
+  border-radius: 1rem;
+  width: 100px;
+  height: 40px;
+  margin: 20px 15px;
+  border: none;
+}
+.meal-box button h3 {
+  font-size: 15px;
+}
 
-  
-
-
-  .meal-box button{
-
-    border-radius: 1rem;
-    width: 100px;
-    height: 40px;
-    margin: 20px 15px;
-    border: none;
-    
-    
-  }
-  .meal-box button h3{
-
-    font-size: 15px;
-  }
-
-  .meal-box .meal-name h3{
-
-    margin-right: 20px;
-    text-align: right;
-    color: var(--orange);
-  }
-
-  .meal-box button :hover{
-
+.meal-box .meal-name h3 {
+  margin-right: 20px;
+  text-align: right;
   color: var(--orange);
-    
-   
+}
 
-  }
-   
-  .meals img{
+.meal-box button :hover {
+  color: var(--orange);
+}
 
-    width: 120%;
-    
-  
-  }
-  #img2{
+.meals img {
+  width: 120%;
+}
+#img2 {
+  width: 120%;
+}
 
-    width:120%;
-  }
-
-
-
-.meals .meal-box{
- 
-
- 
+.meals .meal-box {
   background-size: cover;
 }
 
-.meals .meal-box .info{
-
-border: rgb(214, 214, 214) solid 0.8px ;
-border-top: 1.2rem;
-background-color: #ffffff;
-border-bottom-left-radius: 1.2rem;
-border-bottom-right-radius: 1.2rem;
-
-  
+#heart-icon {
+  color: red;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.meals .meal-box .info {
+  border: rgb(214, 214, 214) solid 0.8px;
+  border-top: 1.2rem;
+  background-color: #ffffff;
+  border-bottom-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
 }
 
-
-.lftor{
- 
-  
-
+.lftor {
 }
 
-.mchroubat{
-
-
-
+.mchroubat {
 }
 
-.desserts{
-
-
-
+.desserts {
 }
 
-
-.fast-food{
-
-
-
-
+.fast-food {
 }
 
-.meals-trad{
-
-
-
+.meals-trad {
 }
-
-
-
-
-
 
 /*footer */
-
 
 footer {
   width: 100%;
@@ -508,54 +405,13 @@ footer {
   border: 1px solid white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*media queries for responsivity*/
-@media (max-width:1235px){
+@media (max-width: 1235px) {
+  html {
+    font-size: 15px;
+  }
 
-    html{
-
-      font-size: 15px;
-    }
-   
-    .header .menu-bar{
-
-      display: ;
-    }
-
-    
-
-
-    }
-
-  
-  
+  .header .menu-bar {
+    display: ;
+  }
+}

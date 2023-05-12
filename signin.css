@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap");
+
+
+
+
+:root {
+  --white: #ffffff;
+  --orange: #f8a22f;
+  --green: #77ff70;
+}
+* {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  /*overflow-x: hidden;*/
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(res/orange-pizza.gif);
+}
+.header {
+  margin: 40px 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: none;
+}
+
+.header .logo {
+  width: auto;
+}
+.header .logo img {
+  align-items: center;
+  width: 75%;
+  margin-right: 0px;
+}
+
+.header .nav {
+  margin-right: 130px;
+}
+
+/* nav bar*/
+
+.header nav a {
+  font-size: large;
+  border-radius: 0.5rem;
+  padding: 5px 25px;
+  color: rgb(255, 255, 255);
+  margin: 0 15px;
+  border-radius: 50px;
+}
+
+.header nav a:hover {
+  color: rgb(0, 0, 0);
+  background: var(--white);
+}
+.header nav .cont {
+  padding: 5px 25px;
+  /*/background-color: #F8A22F;*/
+  border-radius: 50px;
+}
+.header .icons i,
+.header .icons a {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  height: 3rem;
+  line-height: 3rem;
+  width: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--white);
+  border-radius: 50%;
+  /* background: #eee;*/
+}
+.header .icons i:hover,
+.header .icons a:hover {
+  color: var(--orange);
+  background: var(--white);
+  transform: rotate(360deg);
+  transition-duration: 0.6s;
+}
+
+.header #menu-bars{
+
+    display: none;
+}
+
+
+
+
+
+
+
+
+/*header ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100;
+    width: 100%;
+    padding: 25px 0 250px 0;
+    flex-direction: column;
+
+}
+
+
+section h1 {
+    padding: 25px 0 25px 0;
+    font-size: 3rem;
+    font-family: cairo;
+    color: white;
+    text-align: center;
+}
+
+.form_box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+
+
+    background-image: url("res/Form.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input_box {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    color: white;
+    font-family: ;
+
+}
+
+.inp {
+    width: 100%;
+    height: 40px;
+}
+
+/*ktiba li da5l input*/
+
+::placeholder {
+    font-family: 'exo';
+   /* text-align: right;*/
+
+}
+
+/* fin ktiba li da5l input*/
+
+
+.forget input{
+
+    
+}
+
+.btn button {
+    margin-left: 25%;
+    margin-top: 15px;
+    
+}
+
+button {
+    width: 50%;
+    height: 40px;
+    border-radius: 40 px;
+    background-color: whitesmoke;
+    border: none;
+
+    font-size: 1em;
+    font-weight: 600;
+    
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-color: #f8a22f;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.footer_info {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: auto;
+}
+
+.column {
+    width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 10px 0;
+}
+
+.contacticons {
+    width: 140px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 7px;
+    margin-top: 5px;
+}
+
+.contacticons i {
+    transition-duration: 0.4s;
+}
+
+.contacticons i:hover.icon1 {
+    color: rgb(135, 210, 212);
+}
+
+.contacticons i:hover.icon2 {
+    color: rgb(59, 89, 152);
+}
+
+.contacticons i:hover.icon3 {
+    color: rgb(196, 48, 43);
+}
+
+.contacticons i:hover.icon4 {
+    color: rgb(0, 172, 238);
+}
+
+.pad {
+    margin-bottom: 10px;
+}
+
+.contacticons i {
+    font-size: 24px;
+}
+
+.column h1 {
+    color: #ffffff;
+    font-family: exo;
+    font-size: 25px;
+}
+
+.column a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.column1 a:hover {
+    letter-spacing: 1px;
+}
+
+.footer {
+    transform: translateX(50px);
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright hr {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.copyright pre {
+    box-sizing: content-box;
+}
+
+#contact {
+    padding: 25px 0 25px 0;
+}
+
+#contact_row {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 0 100px 0 100px;
+    flex: flex-wrap;
+}
+
+.contact_col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.contact_col img {
+    height: 400px;
+    width: 400px;
+}
+
+.contact_col form {
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    width: 70%;
+    padding: 20px 40px 20px 20px;
+}
+
+.contact_col form h3 {
+    text-align: center;
+    font-family: cursive;
+}
+
+.contact_col form input {
+    width: 100%;
+    height: 17pt;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact_col form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact_col form button {
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+    background-color: grey;
+    border: 1px solid white;
+}
