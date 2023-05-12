@@ -112,12 +112,9 @@ body {
   background-color: #bebebe;
 }
 
-.menu-bar .left-arrow {
-  width: 25px;
-}
 
-.menu-bar .right-arrow {
-}
+
+
 
 .menu .menu-bar button {
   font-size: 15px;
@@ -194,6 +191,12 @@ body {
   color: var(--orange);
 }
 
+.meal-box .meal-name{
+   
+  display: flex;
+  justify-content: space-between;
+}
+
 .meal-box button :hover {
   color: var(--orange);
 }
@@ -210,10 +213,14 @@ body {
 }
 
 #heart-icon {
-  color: red;
+  
+  width: 50%;
   font-size: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  color: red;
+  margin-left: 18px;
+  margin-top: 10px;
+  
+  
 }
 .meals .meal-box .info {
   border: rgb(214, 214, 214) solid 0.8px;
