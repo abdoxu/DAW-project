@@ -94,12 +94,23 @@
 
 .part1{
 
-width: 70%;
-
+width: 1000px;
+height: 750px;
+margin: 20px;
+background-image: url(res/payment\ background.png);
+background-size: 100%;
+background-repeat: no-repeat;
+border-radius: 20px;
 
 }
 
 
+#fff{
+
+    padding-top: 40px;
+    padding-left: 40px;
+    border: red solid;
+}
 
 section {
     display: flex;
@@ -108,14 +119,18 @@ section {
     width: 100%;
     padding: 25px 0 250px 0;
     /* flex-direction: ; */
-
+    font-size:small ;
+    font-family: exo;
 
 }
 #sec input{
-
+    
     border-radius: 2px;
     border: #fff;
+    
 }
+
+
 
 .pers-inf{
 
@@ -129,6 +144,7 @@ height: auto;
     display: flex;
     flex-direction: column;
     
+    margin-top: 15px;
 }
 
 
@@ -186,6 +202,20 @@ padding: 10px;
    
 }
 
+.Peyment_Details .btn1{
+
+    background-image: url();
+}
+.Peyment_Details .btn2{
+    background-image: url();
+
+
+}
+.Peyment_Details .btn3{
+    
+    background-image: url();
+}
+
 
 .input_box{
 
@@ -203,6 +233,12 @@ padding: 10px;
 #pay{
 
     margin: 10px 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #f8a22f;
+    border-radius: 8px;
+    border-color: #fff;
+    font-family: cairo;
     
 }
 
