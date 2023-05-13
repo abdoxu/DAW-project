@@ -1,14 +1,16 @@
 <?php
-echo"wsal php inc ";
+echo"wsal php.inc ";
     if ( isset($_POST["submit"])){
         $name =$_POST["name"];
         $email = $_POST["email"];
         $username = $_POST["usr"];
         $pwd = $_POST["pwd"];
         $pwdconfirm = $_POST["pwdconfirm"];
+
              
-        require_once 'includes/dbh.inc.php' ; 
-        require_once 'includes/function.inc.php';
+     
+        require 'function.inc.php';
+        require 'dbh.inc.php' ; 
 
             if (emptyInputSingup($name,$email,$username,$pwd,$pwdconfirm)!==false){
                 header("location : ../singup.php");
