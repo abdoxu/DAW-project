@@ -38,10 +38,10 @@ border: solid red;
 header {
   margin: 40px 120px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background: none;
-  position: sticky;
+  
 }
 header nav a {
   margin: 0 30px;
@@ -59,9 +59,9 @@ header nav .cont {
   border-radius: 50px;
 }
 
-.nav-bar {
+/* .nav-bar {
   margin-left: 300px;
-}
+} */
 
 .icons {
   margin-left: 20px;

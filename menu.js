@@ -5,53 +5,72 @@ const btn3 = document.getElementById('btn3');
 const btn4 = document.getElementById('btn4');
 
 
-/*all.addEventListener('click',()=>{
+all.addEventListener('click',()=>{
  
-    allmeals.style.display='block'
+    trad.style.display='block';
+    drinks.style.display='block';
+    thlia.style.display='block';
+    fast.style.display='block';
+    ftor.style.display='block';
+   
    
 
-})*/
+})
 
-btn1.addEventListener('click',()=>{
+btn1.addEventListener('click',(e)=>{
  
     
     ftor.style.display='block'
+    trad.style.display='none';
+    drinks.style.display='none';
+    thlia.style.display='none';
+    fast.style.display='none';
+   
 
 })
 
 btn2.addEventListener('click',()=>{
  
-    allmeals.classlist.remove('all-meals');
+   
    
     trad.style.display='block';
+    ftor.style.display='none'
     drinks.style.display='none';
     thlia.style.display='none';
     fast.style.display='none';
-    ftor.style.display='none';
+   
+  
+   
    
   
 
 })
 btn3.addEventListener('click',()=>{
  
-    allmeals.classlist.remove('all-meals');
-    drinks.classlist.add('mchroubat');
-    
+   trad.style.display='none';
+    ftor.style.display='none'
+    drinks.style.display='block';
+    thlia.style.display='none';
+    fast.style.display='none';
 
 })
 btn4.addEventListener('click',()=>{
  
-    allmeals.classlist.remove('all-meals');
-   
-    thlia.classlist.add('desserts');
+   trad.style.display='none';
+    ftor.style.display='none'
+    drinks.style.display='none';
+    thlia.style.display='block';
+    fast.style.display='none';
     
 
 })
 btn5.addEventListener('click',()=>{
  
-    allmeals.classlist.remove('all-meals');
-    
-    fast.classlist.add('fast-food');
+    trad.style.display='none';
+    ftor.style.display='none'
+    drinks.style.display='none';
+    thlia.style.display='none';
+    fast.style.display='block';
   
 })
 

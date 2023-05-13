@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+<div class="header">
+
+    <div class="logo">
+
+        <img src="res/DAR.DJEDDI.png" alt="">
+    </div>
+    <div class="nav">
+        <nav>
+            <a href="#">شكون حنا</a>
+            <a href="#">اطباقنا</a>
+            <a href="#">احجز الأن</a>
+            <a href="#">اتصل بنا</a>
+        </nav>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search"></i>
+        <a href="#" class="fas fa-shopping-cart"> </a>
+    </div>
+</div>
+
+<!--end header-->
+
+<div class="title"><h1>الدفع</h1></div> 
+
+
+<section id="sec">
+
+    
+
+   
+
+    <div class="part1">
+    <form action="">
+        <div class="personal_information">
+            <h2>personal information</h2>
+            <div class="input_box">
+                <div class="textontop">
+                <label for="name">full name</label>
+                <input type="text" id="name" class="pers-inf" >
+                </div>
+                
+                <div class="textontop">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" class="pers-inf">
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="deliv-add"><h2>Delivery Address</h2></div>
+
+        <div class="Delivery_Address">
+            
+        
+            <div class="input_box" >
+                <div class="textontop">  
+                <label for="wilaya">Wilaya</label>
+                <select class="pers-inf" name="wilaya" required onchange="srcChange(this.value)">
+                    <option value="">wilaya</option>
+                    <option value="1">Adrar</option>
+                    <option value="2">Chlef</option>
+                    <option value="3">Laghouat</option>
+                    <option value="4">Oum El Bouaghi</option>
+                    <option value="5">Batna</option>
+                    <option value="6">Bejaia</option>
+                    <option value="7">Biskra</option>
+                    <option value="8">Bechar</option>
+                    <option value="9">Blida</option>
+                    <option value="10">Bouira</option>
+                    <option value="11">Tamanrasset</option>
+                    <option value="12">Tebessa</option>
+                    <option value="13">Tlemcen</option>
+                    <option value="14">Tiaret</option>
+                    <option value="15">Tizi Ouzou</option>
+                    <option value="16">Alger</option>
+                    <option value="17">Djelfa</option>
+                    <option value="18">Jijel</option>
+                    <option value="19">Setif</option>
+                    <option value="20">Saida</option>
+                    <option value="21">Skikda</option>
+                    <option value="22">Sidi Bel Abbes</option>
+                    <option value="23">Annaba</option>
+                    <option value="24">Guelma</option>
+                    <option value="25">Constantine</option>
+                    <option value="26">Medea</option>
+                    <option value="27">Mostaganem</option>
+                    <option value="28">MSila</option>
+                    <option value="29">Mascara</option>
+                    <option value="30">Ouargla</option>
+                    <option value="31">Oran</option>
+                    <option value="32">El Bayadh</option>
+                    <option value="33">Illizi</option>
+                    <option value="34">Bordj Bou Arreridj</option>
+                    <option value="35">Boumerdes</option>
+                    <option value="36">El Tarf</option>
+                    <option value="37">Tindouf</option>
+                    <option value="38">Tissemsilt</option>
+                    <option value="39">El Oued</option>
+                    <option value="40">Khenchela</option>
+                    <option value="41">Souk Ahras</option>
+                    <option value="42">Tipaza</option>
+                    <option value="43">Mila</option>
+                    <option value="44">Ain Defla</option>
+                    <option value="45">Naama</option>
+                    <option value="46">Ain Temouchent</option>
+                    <option value="47">Ghardaia</option>
+                    <option value="48">Relizane</option>
+                </select>
+                </div>
+
+
+                 <div class="textontop">
+                <label for="city">Votre ville</label>
+                <select id="city"  class="pers-inf">
+                    <option>Votre Ville</option>
+                </select>
+                 </div>
+
+                
+                   
+        
+            </div>
+           <div class="textontop" id="suite">
+                    <label for="apartemet">suite/apartemet</label>
+                <input type="text" id="apartemet">  </div>
+                
+           
+        
+        </div>
+
+
+
+
+
+
+
+        <div class="Peyment_Details">
+            <h2>Peyment_Details</h2>
+            <button class="btn"><i class=""></i></button>
+            <button class="btn"><i class=""></i></button>
+            <button class="btn"><i class=""></i></button>
+
+
+
+
+            <div class="input_box" style="display: block;">
+                
+
+            <div class="holder-name" id="payment">
+
+                <div class="textontop">
+                <label for="holder">Holder Name</label>
+                <input type="text" id="holder">
+                </div>
+           
+
+            
+                <div class="textontop">
+                <label for="card">Card number</label>
+                <input type="tel" id="card" ></div>
+         </div>
+
+
+                <div class="mmvv">
+                <div class="textontop">
+                <label for="start">MM/YY</label>
+                <input type="month" id="start" >
+                </div>
+                <div class="textontop">
+                <label for="cvv">cvv</label>
+                <input type="text" id="cvv">
+                </div>
+
+                 </div>
+        
+            </div>
+        
+        </div>
+
+        <button id="pay">تاكيد الدفع</button>
+
+
+
+
+
+
+
+    </form>
+
+
+</div>
+
+    <div class="part2">
+        <div class="inline_paragraph">
+            <p>remove all</p>
+            <p> order summary</p>
+        </div>
+
+
+        <div class="purchases">
+            <div class="purchase_1">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+                <input type="number"   min="1"    width="2px">
+                <h4>2000da</h4>
+            </div>
+
+            <div class="purchase_2">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+                <input type="number" min="1" >
+                <h4>1500da</h4>
+            </div>
+
+            <div class="purchase_3">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+                <input type="number" min="1" >
+                <h4>3000da</h4>
+            </div>
+
+            <div class="purchase_4">
+                <img src="" alt="">
+                <h4></h4>
+                <p></p>
+                <input type="number" min="1">
+                <h4>5000da</h4>
+            </div>
+
+        </div>
+
+        <div class="">
+            <div class="line_1">
+                <p>subtotal</p>
+                <p>5100da</p>
+            </div>
+            <div class="line_2">
+                <p>shiping fees</p>
+                <p>500da</p>
+
+            </div>
+            <div class="line_3">
+                <p>taxe</p>
+                <p>150da</p>
+
+            </div>
+            <div class="line_4">
+                <h4>Total(including tax)</h4>
+                <h4>5750da</h4>
+
+            </div>
+
+        </div>
+
+
+    
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="footer">
+        <div class="footer_info">
+
+            <div class="column column1">
+                <h1>Company</h1>
+                <a href=""><span>></span>&nbsp;&nbsp;About Us</a>
+                <a href=""><span>></span>&nbsp;&nbsp;Contact Us</a>
+                <a href=""><span>></span>&nbsp;&nbsp;Reservation</a>
+                <a href=""><span>></span>&nbsp;&nbsp;Privacy Policy</a>
+                <a href=""><span>></span>&nbsp;&nbsp;Terms & Condition</a>
+            </div>
+            <div class="column column2">
+                <h1>Contact Us</h1>
+                <pre><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; Algerai,oran,oran</pre>
+                <pre><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+213 5565 73881</pre>
+                <pre><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;email@gmail.com</pre>
+                <div class="contacticons">
+                    <a href=""><i class="fa-brands fa-twitter icon1"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook icon2"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube icon3"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in icon4"></i></a>
+                </div>
+            </div>
+
+
+            <div class="column column3">
+                <h1>Opening</h1>
+                <pre>Monday - Saturday</pre>
+                <pre class="pad">09AM - 09PM</pre>
+                <pre>Sunday</pre>
+                <pre>10AM - 08PM</pre>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="copyright">
+        <hr>
+        <pre>© Restaurant, All Right Reserved. Designed By <strong>trinom</strong></p>
+          </div>
+      </footer>
+
+    
+</body>
+</html>

@@ -1,59 +1,59 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Roboto+Condensed:wght@300&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Exo:wght@200;400;700;800&display=swap");
 
-:root {
-  --white: #ffffff;
-  --orange: #f8a22f;
-  --green: #77ff70;
-}
-* {
-  font-family: "Cairo", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-transform: capitalize;
-  scroll-behavior: smooth;
-  scroll-padding-top: 5.5rem;
-  /*overflow-x: hidden;*/
-}
-a {
-  text-decoration: none;
-}
+  :root {
+    --white: #ffffff;
+    --orange: #f8a22f;
+    --green: #77ff70;
+  }
+  * {
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    /*overflow-x: hidden;*/
+  }
+  a {
+    text-decoration: none;
+  }
 
-body {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-image: url(res/orange-pizza.gif);
-}
-.header {
-  margin: 40px 120px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: none;
-}
+  body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(res/orange-pizza.gif);
+  }
+  .header {
+    margin: 40px 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: none;
+  }
 
-.header .logo {
-  width: auto;
-}
-.header .logo img {
-  align-items: center;
-  width: 75%;
-  margin-right: 0px;
-}
+  .header .logo {
+    width: auto;
+  }
+  .header .logo img {
+    align-items: center;
+    width: 75%;
+    margin-right: 0px;
+  }
 
-.header .nav {
-  margin-right: 130px;
-}
+  .header .nav {
+    margin-right: 130px;
+  }
 
-/* nav bar*/
+  /* nav bar*/
 
-.header nav a {
-  font-size: large;
-  border-radius: 0.5rem;
-  padding: 5px 25px;
-  color: rgb(255, 255, 255);
-  margin: 0 15px;
+  .header nav a {
+    font-size: large;
+    border-radius: 0.5rem;
+    padding: 5px 25px;
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
   border-radius: 50px;
 }
 
@@ -168,7 +168,7 @@ body {
 
 .meals .meal-box {
   width: 400px;
-  height: 350px;
+  height: 370px;
   border-radius: 1.3rem;
   overflow: hidden;
   background-color: #ffffff;
@@ -179,6 +179,7 @@ body {
   width: 100px;
   height: 40px;
   margin: 20px 15px;
+  
   border: none;
 }
 .meal-box button h3 {
@@ -231,18 +232,23 @@ body {
 }
 
 .lftor {
+  display: block;
 }
 
 .mchroubat {
+  display: block;
 }
 
 .desserts {
+  display: block;
 }
 
 .fast-food {
+  display: block;
 }
 
 .meals-trad {
+  display: block;
 }
 
 /*footer */
@@ -418,7 +424,7 @@ footer {
     font-size: 15px;
   }
 
-  .header .menu-bar {
+  /* .header .menu-bar {
     display: ;
-  }
+  } */
 }
