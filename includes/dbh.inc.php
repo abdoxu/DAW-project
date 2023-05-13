@@ -1,12 +1,9 @@
 <?php
-$servername ="localhost";
-$dbUsername ="root";
-$dbPassword ="";
-$dbName ="login_sys";
-$conn = mysqli_connect($servername, $dbUsername, $dbPassword, $dbName);
-if (!$conn) {
-    die("Connection failed : " .mysqli_connect_error());
-}
 
+// Create connection
+$conn = mysqli_connect('localhost', 'root', '', 'login_sys',3306);
 
+    if(!$conn){
+        die("Connection failed:  " .mysqli_connect_error());
+    }
 ?>
