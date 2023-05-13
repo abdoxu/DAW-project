@@ -204,16 +204,26 @@ padding: 10px;
 
 .Peyment_Details .btn1{
 
-    background-image: url();
+    background-image: url(res/credit-card-payment-icon.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .Peyment_Details .btn2{
-    background-image: url();
-
+    background-image: url(res/402px-AlgeriePoste.svg@2x.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
 
 }
 .Peyment_Details .btn3{
     
-    background-image: url();
+    background-image: url(res/390px-PayPal_Logo_Icon_2014.svg.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 
@@ -251,9 +261,29 @@ padding: 10px;
 .part2{
 
 border: red solid;
-width: 40%;
-display: flex;
+width: 100%;
+display: block;
+align-content: center
+
 }
+
+
+.inline_paragraph p{
+
+    text-align: center;
+
+}
+
+
+.purchases{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
 
 
 
