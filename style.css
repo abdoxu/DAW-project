@@ -225,6 +225,7 @@ header nav .cont {
   background-image: url("res/orange-pizza.gif");
   background-size: 100%;
   background-repeat: no-repeat;
+
 }
 
 /* start section N04 */
@@ -238,6 +239,14 @@ header nav .cont {
   text-align: center;
 }
 
+.container-sec4{
+
+padding-bottom: 200px ;
+
+
+
+}
+
 #hhh {
   font-family: exo;
   font-size: 34px;
@@ -249,7 +258,7 @@ header nav .cont {
 }
 
 .contact_col .img-feed {
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 
@@ -270,7 +279,13 @@ header nav .cont {
 
 .contact_col form h3 {
   text-align: center;
-  font-family: cursive;
+  font-family: exo;
+}
+::placeholder{
+
+  font-family: cairo;
+  text-align: right;
+  padding: 5px;
 }
 
 .contact_col form input {
@@ -292,10 +307,56 @@ header nav .cont {
   background-repeat: no-repeat;
 }
 .contact_col .btn-form {
+  width: 100px;
+  height: 50px;
+
   border-radius: 5px;
   border: none;
   margin-top: 20px;
+  color: white;
+
 }
+
+#contact{
+
+   font-family: cairo,bold;
+   font-size: 50px;
+}
+
+
+#big_title{
+
+font-family: cairo,bold;
+font-size:50px ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer */
 
